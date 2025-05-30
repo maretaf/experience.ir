@@ -101,23 +101,23 @@
         <div id="landingView">
             <section class="hero-bg text-white py-20 md:py-32 rounded-lg shadow-xl">
                 <div class="container mx-auto text-center bg-black bg-opacity-60 p-8 rounded-md">
-                    <h2 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">به <span class="text-yellow-300">تجربه‌.آی‌آر</span> خوش آمدید!</h2>
+                    <h2 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">به <span class="text-yellow-300">experience.ir</span> خوش آمدید!</h2>
                     <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
                         ما باور داریم که ارزشمندترین دارایی‌ها، تجربه‌هایی هستند که کسب می‌کنیم و داستان‌هایی که برای گفتن داریم.
-                        تجربه‌.آی‌آر پلی است میان شما و دنیاهای جدید؛ جایی برای یادگیری، خدمت و رشد.
+                        experience.ir پلی است میان شما و دنیاهای جدید؛ جایی برای یادگیری، خدمت و رشد.
                     </p>
                 </div>
             </section>
 
             <section class="py-12 md:py-16 text-center">
-                <h3 class="text-3xl font-bold mb-4 text-cyan-700">چشم‌انداز تجربه‌.آی‌آر</h3>
+                <h3 class="text-3xl font-bold mb-4 text-cyan-700">چشم‌انداز experience.ir</h3>
                 <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-10 leading-relaxed">
-                    ما در تجربه‌.آی‌آر به دنبال ساختن جامعه‌ای جهانی از افراد کنجکاو، ماجراجو و مهربان هستیم... (متن کامل چشم‌انداز)
+                    ما در experience.ir به دنبال ساختن جامعه‌ای جهانی از افراد کنجکاو، ماجراجو و مهربان هستیم... (متن کامل چشم‌انداز)
                 </p>
             </section>
 
             <section id="siteSectionsPreview" class="py-12 md:py-16 bg-gray-100 rounded-lg shadow-inner">
-                <h3 class="text-3xl font-bold mb-12 text-center text-teal-700">بخش‌های مختلف تجربه‌.آی‌آر را کشف کنید</h3>
+                <h3 class="text-3xl font-bold mb-12 text-center text-teal-700">بخش‌های مختلف experience.ir را کشف کنید</h3>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-0">
                     <div id="preview-experience-center" class="site-section-card bg-white p-6 rounded-xl shadow-lg text-center cursor-pointer">
                         <img src="https://placehold.co/600x400/38b2ac/ffffff?text=مرکز+تجربه" alt="مرکز تجربه" class="w-full h-48 object-cover rounded-md mb-4">
@@ -207,7 +207,7 @@
 
         <div id="blogView" class="hidden mt-8 bg-white p-6 md:p-8 rounded-lg shadow-xl max-w-3xl mx-auto text-center">
             <img src="https://placehold.co/800x400/a0aec0/ffffff?text=تصویر+شاخص+وبلاگ" alt="وبلاگ" class="w-full h-64 object-cover rounded-md mb-6">
-            <h2 class="text-3xl font-bold mb-6 text-indigo-700"><i class="fas fa-newspaper mr-2"></i>وبلاگ تجربه‌.آی‌آر</h2>
+            <h2 class="text-3xl font-bold mb-6 text-indigo-700"><i class="fas fa-newspaper mr-2"></i>وبلاگ experience.ir</h2>
             <p class="text-gray-600 mb-8 leading-relaxed">
                 به زودی در این بخش، مقالات، داستان‌های الهام‌بخش از تجربه‌گرایان و تجربه‌فرمایان، راهنماهای سفر و نکاتی برای کسب بهترین تجربه‌ها منتشر خواهد شد. با ما همراه باشید تا از آخرین نوشته‌ها مطلع شوید!
             </p>
@@ -234,7 +234,7 @@
 
     </div> <footer class="bg-gray-800 text-white text-center p-6 mt-10">
         <p class="text-sm">حقوق مادی و معنوی این سایت متعلق به همه افراد تجربه‌گرا در سطح کره زمین است.</p>
-        <p class="text-xs mt-2">&copy; ۱۴۰۳ - تجربه‌.آی‌آر</p>
+        <p class="text-xs mt-2">&copy; ۱۴۰۳ - experience.ir</p>
     </footer>
 
     <div id="experienceDetailModal" class="modal">
@@ -1032,7 +1032,7 @@
             return;
         }
         const userRole = currentUser.type === 'experiencer' ? 'تجربه‌گرا' : 'تجربه‌فرما';
-        let prompt = `یک بیوگرافی کوتاه (حدود ۵۰ تا ۷۰ کلمه) و جذاب برای پروفایل یک فرد ${userRole} در پلتفرم «تجربه‌.آی‌آر» بنویس. `;
+        let prompt = `یک بیوگرافی کوتاه (حدود ۵۰ تا ۷۰ کلمه) و جذاب برای پروفایل یک فرد ${userRole} در پلتفرم «experience.ir» بنویس. `;
         prompt += `این فرد دارای این مشخصات است: «${keywords}». `;
         prompt += `بیوگرافی باید حس کنجکاوی و همکاری را منتقل کند و به زبان فارسی روان و صمیمی باشد.`;
 
